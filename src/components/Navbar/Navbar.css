@@ -1,0 +1,13 @@
+.navbar{
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #DF0303;
+}
+
+.boton{
+    font-size: 25px;
+    color: black;
+}
