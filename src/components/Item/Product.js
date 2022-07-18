@@ -7,6 +7,21 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import accounting from 'accounting';
 
+import { getFirestore, doc, getDoc } from 'firebase/firestore';
+
+useEffect(() => {
+  const db = getFirestore();
+
+  const sneakerRef = doc(db, "products", "14aSME7j6mO2qN7iTIO8")
+
+  getDoc(sneakerRef).then((snapshot) => {
+    if(snapshot.exists()){
+      setSneakerFetch({...snapshot.data})
+    }
+  })
+
+})
+
 export default function Product() {
   return (
     <Card sx={{ maxWidth: 345 }}>
@@ -15,14 +30,14 @@ export default function Product() {
         height="140px"
         max-width="150px"
         image="https://cdn.shopify.com/s/files/1/2358/2817/products/air-jordan-1-mid-light-smoke-grey-2022-554724-078_600x.png?v=1641232018"
-        alt="Air Jorda 1"
+        alt={category}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-        Air Jordan 1 Mid Light Smoke Grey Anthracite
+        {title}
         </Typography>
         <Typography variant="h5" color="text.secondary">
-          {accounting.formatMoney(24450)}
+          {accounting.formatMoney({price})}
         </Typography>
       </CardContent>
       <CardActions>
