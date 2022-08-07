@@ -1,33 +1,26 @@
-import { useState , useEffect } from 'react'
+import { useEffect, useState } from 'react';
 import Product from '../Item/Product'
-import { getFirestore , doc , getDoc , collection } from 'firebase/firestore'
 
-export default function ItemList({title,price,img}) {
+function Container() {
 
-  const [itemsFetch, setItemsFetch] = useState([])
+  const [info, setInfo] = useState([])
   
-useEffect(() => {
-    const db = getFirestore();
-
-    const itemsRef = collection( db, "products" )
-
-    getDocs(itemsRef).then((snapshot) => {
-      if(snapshot.exists()){
-          setItemsFetch([snapshot.docs.maps((doc) => doc.data())])
-      }
-    })
-
-}, [])
-  
+  useEffect(()=>{
+    fetch('product-data.json')
+    .then((resp) => resp.json())
+    .then((data) => setInfo(data))
+  }, [])
   return (
-      <section className='cuerpo'>
+      <section className='body'>
         <div>
           <h2>Catalogo de Zapatillas</h2>
           <p>Elegi tu producto</p>
         </div>
         <div className='catalogo'>
-          <Product items={itemsFetch} />
+          {info.map(i => <Product product={i.name} price={i.price} img={i.image} stock={i.stock} />)}
         </div>
       </section>
-  )
+  );
 }
+
+export default Container;

@@ -1,14 +1,12 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import Product from './components/Item/Product';
-import ItemList from './components/ItemList/ItemList';
+import  Container  from './components/Container/Container';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <ItemList />  
-      { /* <Product /> */ }
+      <Container />  
     </div>
   );
 }

@@ -1,13 +1,10 @@
-.navbar{
-    height: 85px;
+.navbar {
+    height: 80px;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    align-items:center;
     justify-content: space-around;
-    background-color: #DF0303;
-}
-
-.boton{
-    font-size: 25px;
-    color: black;
+    align-items: center;
+    background-color: #1976d2;
+    font-size: 30px;
 }
