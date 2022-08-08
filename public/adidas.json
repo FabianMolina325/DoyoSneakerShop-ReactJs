@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Adidas Yeezy Boost 350 V2 Black Red",
+        "stock": 3,
+        "price": 54888,
+        "descuento": 0,
+        "category": "Adidas",
+        "id": 5,
+        "image": "https://cdn.shopify.com/s/files/1/2358/2817/products/yeezy-boost-350-v2-black-red-744518_2000x.png?v=1638814833"
+    },
+    {
+        "name": "Adidas Yeezy Boost 350 V2 Bone",
+        "stock": 5,
+        "price": 39492,
+        "descuento": 0,
+        "category": "Adidas",
+        "id": 5,
+        "image": "https://cdn.shopify.com/s/files/1/2358/2817/products/Adidas-Yeezy-350-V2-Bone-Wethenew-1_2000x.png?v=1650366163"
+    },
+    {
+        "name": "Adidas Yeezy 700 Wave Runner Solid Grey",
+        "stock": 15,
+        "price": 55834,
+        "descuento": 0,
+        "category": "Adidas",
+        "id": 5,
+        "image": "https://cdn.shopify.com/s/files/1/2358/2817/products/yeezy-700-wave-runner-solid-grey-101579_360x.png?v=1639393949"
+    },
+    {
+        "name": "Adidas Yeezy Boost 350 V2 Zebra",
+        "stock": 5,
+        "price": 51748,
+        "descuento": 0,
+        "category": "Adidas",
+        "id": 5,
+        "image": "https://cdn.shopify.com/s/files/1/2358/2817/products/yeezy-boost-350-v2-zebra-504922_360x.png?v=1639393772"
+    }
+]

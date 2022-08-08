@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Air Jordan 4 Military Black",
+        "stock": 9,
+        "price": 41820,
+        "descuento": 0,
+        "category": "Air Jordan 4",
+        "id": 6,
+        "image": "https://cdn.shopify.com/s/files/1/2358/2817/products/air-jordan-4-military-black-1_2000x.png?v=1652363014"
+    },
+    {
+        "name": "Air Jordan 1 Low Travis Scott Reverse Mocha",
+        "stock": 10,
+        "price": 175674,
+        "descuento": 0,
+        "category": "Air Jordan 4",
+        "id": 6,
+        "image": "https://cdn.shopify.com/s/files/1/2358/2817/products/travis_scott_air_jordan_1_low_reverse_mocha_1_360x.png?v=1657618428"
+    },
+    {
+        "name": "Air Jordan 1 Retro High Off-White Chicago",
+        "stock": 4,
+        "price": 1443523,
+        "descuento": 0,
+        "category": "Air Jordan 1",
+        "id": 6,
+        "image": "https://cdn.shopify.com/s/files/1/2358/2817/products/air-jordan-1-retro-high-off-white-chicago-the-ten-469946_360x.png?v=1639397855"
+    },
+    {
+        "name": "Air Jordan 1 High OG Pollen",
+        "stock": 9,
+        "price": 32683,
+        "descuento": 0,
+        "category": "Air Jordan 1",
+        "id": 6,
+        "image": "https://cdn.shopify.com/s/files/1/2358/2817/products/air-jordan-1-high-og-pollen-712373_360x.png?v=1639398597"
+    }
+]
